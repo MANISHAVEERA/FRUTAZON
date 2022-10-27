@@ -1,0 +1,41 @@
+.section-intro h6{
+    color: black;
+}
+
+
+.faQues{
+background-color: black;
+padding: 2em;
+margin-top: 2em;
+
+margin-right: 2em;
+margin-left: 2em;
+}
+.section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: rgb(211, 200, 200);
+    margin: 16px auto 0 auto;
+ }
+.faq{
+    border: 3px double black;
+    padding: 2em;
+    margin: 2em;
+}
+
+
+.accordion-header button{
+    
+    background-color: rgba(250, 241, 122, 0.192);
+    color: black;
+}
+
+.accordion-header button:not(.collapsed) {
+    color: #0a0a0a;
+    background-color: #d1f8c296;
+    box-shadow:none;
+}
+
+.accordion-body{
+    background-color: rgba(197, 193, 193, 0.075);
+}

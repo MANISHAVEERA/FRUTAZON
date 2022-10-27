@@ -1,0 +1,130 @@
+
+.navbar-brand img{
+    width: 15ch;
+}
+#home {
+   background:  linear-gradient(rgba(35, 36, 35, 0.384), rgba(78, 78, 78, 0.616)), url(./images/orange-juice-g209cd61df_1920.jpg) center fixed;
+    /* background-image: linear-gradient(rgba(35, 36, 35, 0.384), rgba(78, 78, 78, 0.616)), url(./images/orange-juice-g209cd61df_1920.jpg); */
+    min-height: 100vh;
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    display: flex;
+    align-items: center;
+ }
+ 
+ #home h1 {
+    font-weight: 700;
+ }
+ 
+ #home p {
+    max-width: 550px;
+    margin: 18px auto;
+ }
+
+ #home a{
+     background-color:  #6ad654;
+     font-size: 1rem;
+ }
+ 
+ #home a:hover{
+    background-color: #293627;
+    color: #fff;
+
+ }
+ img {
+    width: 100%;
+ }
+ 
+ section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+ 
+ .section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #48b632;
+   
+ }
+ 
+ .section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 16px auto 0 auto;
+ }
+
+ .team-member {
+    background-color: #040a04;
+    display: flex;
+    
+ }
+ 
+ 
+ 
+ .team-member .hline {
+    width: 70px;
+    height: 2px;
+    margin: 16px auto;
+    background-color: rgba(255, 255, 255, 0.445);
+ }
+
+ 
+ #cta {
+    background-color: #070606;
+    color: white;
+ }
+ .col-auto a{
+     background-color: #48b632;
+ }
+
+ footer{
+     background-color: #040a04;
+     color: white;
+ }
+
+ 
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ footer .footer-links a,
+ footer .social-icons a {
+    color: #f6f6f8;
+ }
+ 
+ footer .social-icons a {
+    font-size: 24px;
+ }
+ 
+ footer .footer-links a {
+    display: block;
+    font-weight: 400;
+ }
+ 
+ footer .social-icons a:hover,
+ footer .footer-links a:hover {
+    color: #5bbd42;
+ }
+ .logo-text{
+     color: #6ad654;
+ }
+
+ #delivery{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(77, 77, 77, 0), rgba(51, 47, 47, 0.538)),url(./images/delivery.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}

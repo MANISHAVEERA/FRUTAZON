@@ -1,0 +1,44 @@
+#products{
+  background-color: #abf09c2d;
+}
+
+.product{
+    border: 2px solid black;
+}
+/* .product img{
+    height: 300px;
+    width: 406px;
+} */
+
+.product:hover{
+    box-shadow: 0 0 30px 0#3a3a3b;
+    border: 2px solid black;
+} 
+
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+  }
+  
+  .bi-dash-lg {
+    color: rgb(241, 114, 114);
+  }
+  
+  .bi-plus-lg {
+    color: rgb(67, 228, 67);
+  }
+
+#label{
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding: 1em;
+}

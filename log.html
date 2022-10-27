@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./log.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section>
+       
+        <div class="contentBx">
+            <div class="formBx">
+                <h1>Login</h1>
+                <div class="inputBx">
+                    <div class="sign"><p>New to our site?<a href="./sign.html" style="text-decoration: none;">  Signup</a></p></div>
+                   </div>
+              <form name="logForm" action="index.html" onsubmit="return validateForm()">
+                <div class="inputBx">
+                  <span>Email</span>
+                  <input type="email" id="email" name="email">
+                  <div  id="error_email" style="color: red;"></div>
+                 </div>
+              <div class="inputBx">
+                <span>Username</span>
+                <input type="text"  id="name" name="user">
+                <div id="error_name" style="color: red;"></div>
+              </div>
+              <div class="inputBx">
+                <span>Password</span>
+                <input type="password" id="pass" name="pass">
+                <div  id="error_pass" style="color: red;"></div>
+      
+              </div>
+              
+      
+               <div class="inputBx">
+                <div class="sign"><p><a data-bs-toggle="modal" href="#exampleModalToggle" role="button" style="text-decoration: none;">Forgot Password</a></p></div>
+               </div>
+              <div class="inputBx">
+                <input type="submit" id="subButton" value="Login">
+              </div>
+              </form>
+            </div>
+        </div>
+      </section>
+
+
+
+      <!-- modals -->
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+  tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content forgot">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Reset Password</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+
+          <div class="inputs">
+
+            <p>Email:</p>
+            <input type="email" class="form-control" id="ema" aria-describedby="emailHelpp"
+              placeholder="eg:abc@gmail.com" oninput="return validateEmail()">
+            <div id="error_ema" style="color: red;"></div><br>
+
+
+          </div>
+
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="sendbtn" class="btn btn-success " data-bs-target="#exampleModalToggle2"
+          data-bs-toggle="modal" data-bs-dismiss="modal" disabled>Send</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+  tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Sent!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Password sent to email Succesfully
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <script src="./log.js"></script>
+</body>
+</html>

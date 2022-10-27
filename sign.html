@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | Frutazon</title>
+    <link rel="stylesheet" href="./sign.css">
+</head>
+<body>
+
+    <section>
+       
+        <div class="contentBx">
+            <div class="formBx">
+                <h1>Sign up</h1>
+                <div class="inputBx">
+                    <div class="sign"><p>Already having an account?<a href="./log.html" style="text-decoration: none;">Login</a></p></div>
+                   </div>
+              <form name="signupForm" action="log.html" onsubmit="return validateSignupForm()">
+                <div class="inputBx">
+                  <span>Email</span>
+                  <input type="email" id="email" name="email">
+                  <div  id="error_email" style="color: red;"></div>
+                 </div>
+              <div class="inputBx">
+                <span>Username</span>
+                <input type="text"  id="name" name="user">
+                <div id="error_name" style="color: red;"></div>
+              </div>
+              <div class="inputBx">
+                <span>Mobile Number</span>
+                <input type="text"  id="mobile" name="mobile">
+                <div id="error_mob" style="color: red;"></div>
+              </div>
+              <div class="inputBx">
+                <span>Password</span>
+                <input type="password" id="pass" name="pass">
+                <div  id="error_pass" style="color: red;"></div>
+      
+              </div>
+              <div class="inputBx">
+                <span>Confirm Password</span>
+                <input type="password" id="cpass" name="cpass">
+                <div  id="error_cpass" style="color: red;"></div>
+              </div>
+              
+      
+              <div class="inputBx">
+                <input type="submit" id="subButton" value="Sign up">
+              </div>
+              </form>
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+    <script src="./sign.js"></script>
+</body>
+</html>

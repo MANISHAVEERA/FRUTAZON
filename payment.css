@@ -1,0 +1,58 @@
+.paybtn{
+    float: right;
+}
+
+/* .invoice{
+    background-color: cadetblue;
+    color: black;
+    /* margin: 1em; */
+    /* border: 1px solid black;
+    border-radius: 5px; */
+    /* width: 20%; */
+/* } */
+
+#addres,#pay{
+    font-size:1em;
+    color: rgb(8, 8, 8);
+}
+
+#Pform{
+background-color: rgba(143, 188, 143, 0.315);
+padding: 1em;
+
+}
+
+.invoice{
+    background-color: rgba(169, 169, 169, 0.096);
+    padding: 5em;
+}
+
+.invoice p{
+
+    font-size: 1em;
+    color: rgb(10, 78, 19);
+    font-weight: bold;
+
+    
+}
+
+.invoice h3{
+    font-size: 2em;
+    color: rgb(115, 223, 66);
+    font-weight: bold;
+}
+
+.invoice span{
+    font-size: 1em;
+    color: black;
+    font-weight: normal;
+}
+thead{
+    background-color:rgba(143, 188, 143, 0.315) ;
+}
+.section-intro h2{
+    color: black;
+}
+.order{
+   /* height: 50vh; */
+}
